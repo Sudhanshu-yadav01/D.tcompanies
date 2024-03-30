@@ -1,0 +1,336 @@
+@font-face {
+    font-family: Ment;
+    src: url(./MentiDisplay-SemiBold.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Ment;
+
+}
+  
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    
+}
+.page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+}
+.companies {
+  background:#000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+img{
+    height: 70vh;
+    width: 40vw;
+}
+.heading {overflow: hidden;
+    position: relative;
+    height: 19vh;
+    color: azure;
+}
+.texth1{
+    position: absolute;
+    left: 3%;
+    top: 70%;
+}
+
+.company{
+    background-color: rgb(0, 0, 0) ;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.company1{ overflow: hidden;
+    position: relative;
+    width: 33vw;
+    height: 80vh;
+    background-color:rgba(237, 235, 235, 0.991);
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.company1 img{
+        width:35vw ;
+        height: 53vh;
+        object-fit: cover;
+}
+.company1contain{
+    padding: 30px;
+    top: 60%;
+    position: absolute;
+    width: 35vw;
+    height: 40vh;
+    background-color: rgba(237, 235, 235, 0);
+}
+.company2{
+    overflow: hidden;
+    position: relative;
+    width: 33vw;
+    height: 80vh;
+    background-color: rgba(143, 219, 219, 0.916);
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+.company2 img{
+    width:35vw ;
+    height: 53vh;
+    object-fit: cover;
+}
+.company2contain{
+    
+    padding: 30px;
+    top: 60%;
+    position: absolute;
+    width: 35vw;
+    height: 40vh;
+    background-color: rgba(205, 224, 222, 0.066);
+}
+
+
+
+/* hello */
+
+
+
+.companypage2{
+    background-color: rgb(0, 0, 0) ;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.company3{ overflow: hidden;
+    position: relative;
+    width: 33vw;
+    height: 80vh;
+    background-color: rgba(230, 216, 211, 0.886);
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.company3 img{
+        width:35vw ;
+        height: 57vh;
+        object-fit: cover;
+        
+}
+.company3contain{
+    padding: 30px;
+    top: 67%;
+    position: absolute;
+    width: 35vw;
+    height: 40vh;
+    background-color: rgba(210, 162, 162, 0);
+}
+.company4{
+    overflow: hidden;
+    position: relative;
+    width: 33vw;
+    height: 80vh;
+    background-color: rgba(193, 145, 229, 0.769);
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+.company4 img{
+    width:35vw ;
+    height: 53vh;
+    object-fit: cover;
+}
+.company4contain{
+    
+    padding: 30px;
+    top: 60%;
+    position: absolute;
+    width: 35vw;
+    height: 40vh;
+    background-color: rgba(205, 224, 222, 0);
+}
+
+
+/* helllo */
+
+
+.companypage3{
+    background-color: rgb(0, 0, 0) ;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.company5{ overflow: hidden;
+    position: relative;
+    width: 33vw;
+    height: 80vh;
+    background-color: rgba(225, 158, 130, 0.831);
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.company5 img{
+        width:35vw ;
+        height: 53vh;
+        object-fit: cover;
+}
+.company5contain{
+    padding: 30px;
+    top: 65%;
+    position: absolute;
+    width: 35vw;
+    height: 40vh;
+    background-color: rgba(237, 235, 235, 0);
+}
+.company6{
+    overflow: hidden;
+    position: relative;
+    width: 33vw;
+    height: 80vh;
+    background-color: #ef85cad5;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+.company6 img{
+    width:35vw ;
+    height: 53vh;
+    object-fit: cover;
+}
+.company6contain{
+    
+    padding: 30px;
+    top: 65%;
+    position: absolute;
+    width: 35vw;
+    height: 40vh;
+    background-color: rgba(205, 224, 222, 0);
+}
+
+/* hellloo */
+
+.companypage4{
+    background-color: rgb(0, 0, 0) ;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.company7{ overflow: hidden;
+    position: relative;
+    width: 33vw;
+    height: 80vh;
+    background-color: #B46E3F;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.company7 img{
+        width:35vw ;
+        height: 53vh;
+        object-fit: cover;
+}
+.company7contain{
+    padding: 30px;
+    top: 60%;
+    position: absolute;
+    width: 35vw;
+    height: 40vh;
+    background-color: rgba(237, 235, 235, 0);
+}
+.company8{
+    overflow: hidden;
+    position: relative;
+    width: 33vw;
+    height: 80vh;
+    background-color: #E4EFE1;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+.company8 img{
+    width:35vw ;
+    height: 53vh;
+    object-fit: cover;
+}
+.company8contain{
+    
+    padding: 30px;
+    top: 60%;
+    position: absolute;
+    width: 35vw;
+    height: 40vh;
+    background-color: rgba(205, 224, 222, 0);
+}
+
+/* helllll */
+
+.companypage5{
+    background-color: rgb(0, 0, 0) ;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.company9{ overflow: hidden;
+    position: relative;
+    width: 33vw;
+    height: 80vh;
+    background-color: #EABFA4;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.company9 img{
+        width:35vw ;
+        height: 53vh;
+        object-fit: cover;
+}
+.company9contain{
+    padding: 30px;
+    top: 65%;
+    position: absolute;
+    width: 35vw;
+    height: 40vh;
+    background-color: rgba(237, 235, 235, 0);
+}
+.company10{
+    overflow: hidden;
+    position: relative;
+    width: 33vw;
+    height: 80vh;
+    background-color: #b89f81;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+.company10 img{
+    width:35vw ;
+    height: 53vh;
+    object-fit: cover;
+}
+.company10contain{
+    
+    padding: 30px;
+    top: 65%;
+    position: absolute;
+    width: 35vw;
+    height: 40vh;
+    background-color: rgba(205, 224, 222, 0);
+}
